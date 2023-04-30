@@ -1,7 +1,15 @@
+
+import sys
+import os
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.dirname(SCRIPT_DIR))
+
+
+
 import unittest
 
 
-from Floyd_Recursive import floyd
+from Algorithms.Floyd_Recursive import floyd
 
 from Test_cases import (control_input, control_expected_output,
                         test_A, expected_A,

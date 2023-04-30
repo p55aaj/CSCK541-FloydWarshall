@@ -67,6 +67,8 @@ expected_B = [[0, 16, 59, 71, INF, 76, 30, 114, 124],
               [INF, INF, INF, INF, INF, INF, 0, 84, INF],
               [INF, INF, INF, INF, INF, INF, INF, 0, INF],
               [INF, INF, INF, INF, INF, INF, INF, INF, 0]]
+
+
 #Test C, 10x10 matrix with large numbers
 test_C = [[0, INF, INF, INF, INF, 343, INF, 1435, 464, INF],
              [INF, 0, INF, INF, INF, 879, 954, 811, INF, 524],
@@ -91,4 +93,5 @@ expected_C = [[0, 1222, 1397, 2609, 1449, 343, 2176, 1435, 464, 1746],
               [464, 1686, 1861, 3073, 1913, 807, 2640, 1899, 0, 2210],
               [1746, 524, 2130, 1053, 766, 1403, 1478, 1335, 2210, 0]
              ]
+
 
