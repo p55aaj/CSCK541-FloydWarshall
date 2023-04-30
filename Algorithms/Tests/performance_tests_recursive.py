@@ -24,7 +24,7 @@ import cProfile
 # Testing of control case (a 4x4 matrix)
 print("Performance Tests of Control Inputs")
 cProfile.run("floyd(control_input)")
-
+cProfile.run
 
 # Testing of test case A (a 7x7 matrix)
 print("Performance Tests of test_A")
