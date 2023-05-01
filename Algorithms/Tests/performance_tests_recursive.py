@@ -19,12 +19,14 @@ from Test_cases import (control_input, test_A, test_B, test_C)
 #Importing the testing package
 import cProfile
 
-#Following are the performance tests
+"""
+Following are the performance tests
+"""
 
 # Testing of control case (a 4x4 matrix)
 print("Performance Tests of Control Inputs")
 cProfile.run("floyd(control_input)")
-cProfile.run
+
 
 # Testing of test case A (a 7x7 matrix)
 print("Performance Tests of test_A")

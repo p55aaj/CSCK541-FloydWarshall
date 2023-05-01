@@ -5,16 +5,15 @@ def floyd(distance):
     #determine the number of vertices (v) of the graph
     v = len(distance)
     
-    
+    #Define infinity. The value is used for vertices not connected to each other
     INF = float('inf')
-
+    
     def shortestPath(i, j, k):
         """
         The recursive function to find the shortest path
         between two vertices   
         """    
         
-
         #Calculates the direct paths and ends recursion when all nodes
         #have been tried. 
         if k < 0:
@@ -27,9 +26,6 @@ def floyd(distance):
             return min(shortestPath(i, j, k -1),
                         shortestPath(i, k, k - 1) + shortestPath(k, j, k - 1))
             
-    
-    
-    
     
     """
     Calling of calculation of shortest path and displaying the matrix showing
