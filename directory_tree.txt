@@ -1,0 +1,17 @@
+CSCK541-FloydWarshall
+│   directorytree.txt
+│   README.md
+│   requirements.txt
+│
+├───Algorithms
+│       Floyd_Iterative.py
+|       Floyd_Recursive.py
+│       __init__.py
+|       main.py
+│
+└───Tests
+        Test_cases.py
+        __init__.py
+        performance_test_iterative.py
+        performance_tests_recursive.py
+        test.py
